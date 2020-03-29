@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "Test Ext",
+    "description": "Test extention for chrome",
+    "permissions": ["contextMenus","activeTab", "tabs", "cookies", "http://*/*", "https://*/*"],
+    "background": {
+    	"scripts": ["js/background.js"]
+    }
+}
